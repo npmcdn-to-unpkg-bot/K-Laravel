@@ -1,0 +1,132 @@
+
+.navbar-brand{
+	padding: 6px;
+	margin-right: 6px;
+}
+
+.navbar-inverse{
+	border-radius: 0;
+}
+#loginText h2{
+   line-height: 55px;
+   margin-bottom: 35px;
+   margin-top: 0;
+}
+#loginText p{
+	font-size: 18px;
+	line-height: 35px;
+	margin-bottom: 30px;
+	
+}
+
+#loginText span{
+	font-size: 40px;
+	margin-right: 20px;
+	float: left;
+}
+
+
+/*search bar*/
+.dropdown.dropdown-lg .dropdown-menu {
+    margin-top: -1px;
+    padding: 6px 20px;
+}
+
+
+
+
+#adv-search {
+	width:89%;
+	margin-top: 7px;
+}
+
+
+#adv-search #title{
+	width:89%;
+}
+
+.thewhite{
+	background: #fff;
+}
+
+#save, #description{
+	display: block;
+	margin : 5px;
+}
+
+
+/*masonry*/
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 24%; }
+/* 2 columns wide */
+.grid-item--width2 { width: 40%; }
+
+
+
+@media screen and (min-width: 768px) {
+    
+    .dropdown.dropdown-lg {
+        position: static !important;
+    }
+    .dropdown.dropdown-lg .dropdown-menu {
+        min-width: 500px;
+    }
+}
+
+/*end css search bar*/
+
+@media (max-width: 1350px) {
+	#adv-search #title{
+		width:84%;
+	}
+  
+}
+@media (max-width: 1200px) {
+   
+#adv-search {
+	width:87%;
+}
+
+	
+}
+@media (max-width: 1024px) {
+	
+#adv-search {
+	width:80%;
+}
+
+.grid-item { width: 48%; }
+	
+}
+
+@media (max-width: 770px) {
+	
+	#adv-search {
+		width:100%;
+	}
+
+	.thewhite{
+		width: 100%;
+		min-width: 400px;
+	}
+
+	.grid-item { width: 100%; }
+	
+}
+
+@media (max-width: 600px) {
+
+	#adv-search {
+		width:100%;
+	}
+
+	#loginText span{
+		line-height: 80px;
+	}
+
+	#adv-search #title{
+		width:78%;
+	}
+	
+}
